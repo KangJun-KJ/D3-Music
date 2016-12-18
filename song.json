@@ -1,0 +1,23 @@
+[
+	{
+		"id":0,
+		"songName":"心火",
+		"singer":"姚贝娜",
+		"url":"media/1.mp3",
+		"imageUrl":"media/1.png"
+	},
+	{
+		"id":1,
+		"songName":"一路上有你",
+		"singer":"张学友",
+		"url":"media/2.mp3",
+		"imageUrl":"media/2.png"
+	},
+	{
+		"id":2,
+		"songName":"怎么说我不爱你",
+		"singer":"萧敬腾",
+		"url":"media/3.mp3",
+		"imageUrl":"media/3.png"
+	}
+]

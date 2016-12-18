@@ -1,0 +1,29 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+svg {
+	background-color: darkseagreen;
+
+}
+
+.play circle {
+	stroke: #000;
+	stroke-width: 3px;
+	cursor: pointer;
+
+}
+
+.play path {
+	fill: steelblue;
+	opacity:.8;
+	cursor: pointer;
+}
+.play path:active{
+	opacity:1;
+	fill:steelblue
+}
+.restartBtn1,.restartBtn2{
+	display: none;
+}

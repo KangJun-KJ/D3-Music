@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/style.css" />
+
+	</head>
+	<audio id='bofangqi'></audio>
+	<!--<svg id='s1' width="320"height="600"></svg>-->
+	<!--<svg id=></svg>-->
+	<!--<svg id='s3' width="320" height="600"></svg>-->
+
+	<body>
+		<script src='js/d3.js'></script>
+		<script src='js/music.js'></script>
+		<script src='js/test.js'></script>
+		<script>
+			//			createBG(320,600);
+
+			createCircle([1], 0, 2 * Math.PI, width / 2 - 50, width / 2 - 20, .5, {
+				fill: "#000",
+				opacity: ".3",
+				"stroke-width": "2",
+				"stroke": "yellow"
+			});
+			createCircle([1, 1, 1, 1], 0, 2 * Math.PI, 100, width / 3, .05, {
+				fill: "#000",
+				opacity: ".3",
+				cursor: "pointer",
+				transform: "rotate(45)",
+				"stroke-width": "5",
+				"stroke": "gray"
+			});
+
+		
+		</script>
+	</body>
+
+</html>
