@@ -41,6 +41,8 @@ function jianVolum() {
 var muiscInterval, muiscInterval2;
 
 function playMusic() {
+//	var timeRanges = _audio.buffered;
+//	console.log(timeRanges);
 	audio.play();
 	xuanzhuan();
 }
@@ -48,6 +50,8 @@ function playMusic() {
 function xuanzhuan() {
 	var index,
 		pinglv = songTime*100;
+	clearInterval(muiscInterval);
+	clearInterval(muiscInterval2);
 	muiscInterval = setInterval(function() {
 		index = audio.currentTime*100;
 		d3.select('.circleProgress')
