@@ -5,3 +5,4 @@
 
 使用git命令，下载下来：
 git clone https://github.com/KangJun-KJ/D3-Music.git
+因为使用到了d3.json 如果在本地使用，需要搭建一个服务器，如果怕麻烦，可以使用火狐浏览器，他可以读取本地文件。
